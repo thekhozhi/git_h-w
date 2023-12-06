@@ -1,4 +1,5 @@
 package main
+
 // --PRACTICE--
 
 // 1 exercise.
@@ -547,4 +548,3 @@ package main
 // 	}
 // 	fmt.Println(team)
 // }
-
