@@ -15,8 +15,18 @@ func NumsInLetter(num int) {
 	for i := 1; i < temp; i++ {
 		ten *= 10
 	}
-	n = tempNum2 / ten
-	switch n {
+
+	if temp%3 == 2 {
+		tempNum1 /= ten
+
+		switch tempNum1 {
+
+		}
+		// onlik
+	} else { //birlik
+
+		n = tempNum2 / ten
+		switch n {
 		case 1:
 			fmt.Print("bir ")
 		case 2:
@@ -33,11 +43,12 @@ func NumsInLetter(num int) {
 			fmt.Print("yetti ")
 		case 8:
 			fmt.Print("sakkiz ")
-		case 9: 
+		case 9:
 			fmt.Print("toqqiz ")
+		}
+
 	}
 
-	
 }
 
 func main() {

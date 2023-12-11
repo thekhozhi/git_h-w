@@ -93,7 +93,7 @@ func SumOfProducts() {
 func MaxProducts() {
 	max := 0
 	for _, vclients := range clients {
-		for _, vproduct := range product {
+	    for _, vproduct := range product {
 			for _, vsize := range vproduct.size {
 				for _, vbasket := range vclients.Basket {
 					if vbasket.Size_id == vsize.Id {
@@ -103,8 +103,8 @@ func MaxProducts() {
 					}
 				}
 			}
-			fmt.Println(max, "'ta")
 		}
+		fmt.Println(vproduct.Name, max, "'ta")
 	}
 }
 
