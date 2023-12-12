@@ -552,6 +552,7 @@ package main
 // 	  case 2:
 // 		holatA = "s"
 // 	  }
+//
 
 // 	} else if holat == "q" {
 // 	  switch kom1 {
@@ -614,3 +615,4 @@ package main
 // 		}
 // 	}
 // }
+// khoji
